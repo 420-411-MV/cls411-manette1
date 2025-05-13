@@ -33,6 +33,10 @@
       [
         "expo-build-properties",
         {
+          "android": {
+            "kotlinVersion": "2.0.0",
+            "enableJetifier": true
+          },
           "receiverAppId": "859D2D06",
           "ios": {
             "deploymentTarget": "18.4"
